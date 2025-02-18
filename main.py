@@ -66,7 +66,7 @@ glow_isovalue = 0.4
 
 # storage
 isovaluegrid = [[0.0 for i in range(screen_width//PX_SIZE)] for i in range(screen_height//PX_SIZE)]
-colors_grid = [[[-1, -1, -1] for i in range(screen_width//PX_SIZE)] for i in range(screen_height//PX_SIZE)]
+colors_grid = [[[0, 0, 0] for i in range(screen_width//PX_SIZE)] for i in range(screen_height//PX_SIZE)]
 circles = []
 
 # circles init - random speed, random radius, etc
